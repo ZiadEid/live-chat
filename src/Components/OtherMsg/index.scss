@@ -1,0 +1,14 @@
+.other-msg {
+  &:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #eee transparent;
+  }
+  pre {
+    background-color: #eee;    
+  }
+}

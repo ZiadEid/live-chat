@@ -1,0 +1,17 @@
+.side-bar {
+  height: calc(100vh - 72px - 36px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  .search {
+    label {
+      height: 40px;
+      i {
+        height: 100%;
+        background-color: #eee;
+      }
+    }
+  }
+  #searchUsers {
+    outline: none;
+  }
+}

@@ -1,0 +1,16 @@
+.home {
+  background-color: #eee;
+  .container {
+    height: calc(100vh - 72px);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    .border-end {
+      border-color: rgba(0, 0, 0, 0.5);
+    }
+    .border-bottom {
+      border-color: rgba(0, 0, 0, 0.5);
+    }
+    .welcome {
+      background-color: #eee;
+    }
+  }
+}
